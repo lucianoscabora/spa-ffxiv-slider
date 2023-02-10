@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    overflow: hidden;
+    margin: 0;
   }
   
   body {
@@ -82,28 +84,28 @@ img {
 
 .widget_description {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 20px 30px 70px 30px;
+    margin: 20px 30px 50px 30px;
     font-size: 16px;
     color: white;
 }
 
-.widget_figcaption {
+/* .widget_figcaption {
     margin-top: 16px;
     text-align: center;
     color: white;
-}
+} */
 
 .widget_iframe {
-    margin-top: 30px;
     margin: auto;
-    width: 76vw;
-    height: 76vh;
+    margin-top: 10px;
+    width: 70vw;
+    height: 70vh;
 }
 
 .widget_descricao {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-bottom: 10px;
     text-align: center;
 }
